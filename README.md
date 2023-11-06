@@ -1,5 +1,7 @@
+# Made by Prakhar Agrahari as Part of 10 Days PathWayAI Bootcamp
 # Content-Generation
 Model Used: Pre-trained GPT2 model
+
 Advantages of GPT2:
 1. Generates text considering the sentiments of original text.
 2. Capable of generating texts from headlines.
@@ -10,6 +12,8 @@ Reasons for not using a custom model:
 2. Lack of access to GPU and sufficient memory for training.
 3. I tried training it on a dataset of around 440k+ sentences but a single epoch took
 around 12 hours.
+
+
 Basic Flow:
 1. User inputs sentences on the interface along with the text length required. It is
 imperative to keep the input text length sufficiently high enough (3-4 sentences
